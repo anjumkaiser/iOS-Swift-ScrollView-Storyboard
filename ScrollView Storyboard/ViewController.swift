@@ -16,7 +16,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         var contentWidth: CGFloat = 0
         
         for x in 0...2 {
@@ -26,8 +28,9 @@ class ViewController: UIViewController {
             
             let newWidth: CGFloat = 150
             let newHeight: CGFloat = 150
-            let newX: CGFloat = view.frame.midX + view.frame.size.width * CGFloat(x) - 75
-            let newY: CGFloat = ( view.frame.size.height / 2 ) - 75
+            let scrollWidth = scrollView.frame.size.width
+            let newX: CGFloat = (scrollWidth / 2) + scrollWidth * CGFloat(x) - (newWidth / 2)
+            let newY: CGFloat = (scrollView.frame.size.height / 2) - (newHeight / 2)
             
             contentWidth += newX
 
