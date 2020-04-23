@@ -41,6 +41,7 @@ class ViewController: UIViewController {
         }
         
         scrollView.contentSize = CGSize(width: contentWidth, height: view.frame.size.height)
+        scrollView.clipsToBounds = false
     }
 
 
