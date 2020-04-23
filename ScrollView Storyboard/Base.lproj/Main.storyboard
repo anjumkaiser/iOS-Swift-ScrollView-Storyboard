@@ -32,25 +32,25 @@
                                 </constraints>
                             </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEo-3C-FX1">
-                                <rect key="frame" x="77" y="0.0" width="260" height="896"/>
+                                <rect key="frame" x="97" y="0.0" width="220" height="896"/>
                                 <viewLayoutGuide key="contentLayoutGuide" id="x0a-ku-h19"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="eJv-da-3of"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="QEo-3C-FX1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="97" id="A3a-bB-4kP"/>
                             <constraint firstAttribute="trailing" secondItem="dbM-ft-QgH" secondAttribute="trailing" id="El2-4q-HFx"/>
                             <constraint firstAttribute="bottom" secondItem="dbM-ft-QgH" secondAttribute="bottom" id="J5d-UC-Ncp"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QEo-3C-FX1" secondAttribute="trailing" constant="77" id="LOE-rd-kbJ"/>
                             <constraint firstAttribute="bottom" secondItem="ozZ-dK-cgL" secondAttribute="bottom" id="NDT-8M-69q"/>
                             <constraint firstItem="ozZ-dK-cgL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Oe5-E7-Jwf"/>
-                            <constraint firstItem="QEo-3C-FX1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="77" id="OrM-Ev-iKL"/>
                             <constraint firstItem="ozZ-dK-cgL" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Yii-k0-xyY"/>
                             <constraint firstAttribute="bottom" secondItem="QEo-3C-FX1" secondAttribute="bottom" id="jxp-8s-R8A"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dWI-Lj-I39" secondAttribute="trailing" constant="20" id="lca-em-vZs"/>
                             <constraint firstItem="dbM-ft-QgH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="qww-4g-JKr"/>
                             <constraint firstItem="dbM-ft-QgH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rCw-dT-25g"/>
                             <constraint firstItem="dWI-Lj-I39" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="sPq-WJ-Us8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QEo-3C-FX1" secondAttribute="trailing" constant="97" id="vbY-5y-GfN"/>
                             <constraint firstItem="QEo-3C-FX1" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="w01-e5-vvs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
